@@ -1,0 +1,5 @@
+payasos = int(input("Nº de payasos en el paquete:"))
+muñecas = int(input("Nº de muñecas en el paquete:"))
+peso = (muñecas * 75) + (payasos * 112)
+print("El peso del paquete es de:", peso, "gramos")
+input()
